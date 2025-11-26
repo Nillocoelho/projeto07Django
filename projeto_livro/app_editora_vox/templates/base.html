@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editora Vox</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app_editora_vox/style.css' %}">
+</head>
+<body>
+    <nav>
+        {% if user.is_authenticated %}
+            Olá, {{ user.username }}! <a href="{% url 'logout' %}">Logout</a>
+        {% else %}
+            <a href="{% url 'login' %}">Login</a> | <a href="{% url 'signup' %}">Cadastro</a>
+        {% endif %}
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>

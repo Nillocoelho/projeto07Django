@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f8fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    color: #0077cc;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+h2 {
+    margin-top: 2rem;
+    color: #0077cc;
+    font-weight: 600;
+}
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    max-width: 400px;
+    margin: 2rem auto;
+}
+form button {
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+form button:hover {
+    background: #005fa3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+th {
+    background: #f0f4f8;
+    color: #0077cc;
+}
+.pagination {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+.pagination a, .pagination span {
+    padding: 0.35rem 0.65rem;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #0077cc;
+    background: #fff;
+}
+.pagination .active {
+    background: #0077cc;
+    color: #fff;
+    border-color: #0077cc;
+}
+.pagination .disabled {
+    color: #aaa;
+    border-color: #eee;
+    background: #f7f8fa;
+}

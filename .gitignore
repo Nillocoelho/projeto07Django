@@ -1,0 +1,43 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Django stuff
+*.log
+*.pot
+*.py,cover
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Migrations (keep tracked ones as needed)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.pytest_cache/
+cover/
+htmlcov/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
